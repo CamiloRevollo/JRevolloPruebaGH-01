@@ -5,46 +5,44 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638832978240251036
-    m_Hash: 334752327
+      ticks: 638832986569061396
+    m_Hash: 2589386421
   m_LockFileStatus:
     m_FilePath: C:/Users/MULTIMEDIA/Documents/Pruebas GIthub/JRevolloPruebaGH-01/JCRevolloP1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638832978240282414
-    m_Hash: 4003441561
+      ticks: 638832986569096904
+    m_Hash: 1762027086
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: C:\Users\MULTIMEDIA\Downloads\VRMR_Snapdragon_Spaces_SDK_1_0_2_for_Unity
-      (1)\Unity Package\com.qualcomm.snapdragon.spaces-1.0.2.tgz/package.json
-    m_PathExists: 0
+  - m_FilePath: C:\Users\MULTIMEDIA\Documents\Pruebas GIthub\JRevolloPruebaGH-01\JCRevolloP1\Packages\com.qualcomm.snapdragon.spaces-1.0.2\package/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638790009990000000
+    m_Hash: 831065163
+  - m_FilePath: C:\Users\MULTIMEDIA\Documents\Pruebas GIthub\JRevolloPruebaGH-01\JCRevolloP1\Packages\com.qualcomm.snapdragon.spaces-1.0.2\package
+    m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\MULTIMEDIA\Downloads\VRMR_Snapdragon_Spaces_SDK_1_0_2_for_Unity
-      (1)\Unity Package\com.qualcomm.snapdragon.spaces-1.0.2.tgz
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 638832973761437474
-    m_Hash: 1927523761
 m_ProjectPath: C:/Users/MULTIMEDIA/Documents/Pruebas GIthub/JRevolloPruebaGH-01/JCRevolloP1/Packages
 m_EditorVersion: 2022.3.57f1 (9d8bd91adc0a)
 m_ResolvedPackages:
-- packageId: com.qualcomm.snapdragon.spaces@file:C:\Users\MULTIMEDIA\Downloads\VRMR_Snapdragon_Spaces_SDK_1_0_2_for_Unity
-    (1)\Unity Package\com.qualcomm.snapdragon.spaces-1.0.2.tgz
+- packageId: com.qualcomm.snapdragon.spaces@file:C:\Users\MULTIMEDIA\Documents\Pruebas
+    GIthub\JRevolloPruebaGH-01\JCRevolloP1\Packages\com.qualcomm.snapdragon.spaces-1.0.2\package
   testable: 0
   isDirectDependency: 1
   version: 1.0.2
-  source: 6
-  resolvedPath: C:\Users\MULTIMEDIA\Documents\Pruebas GIthub\JRevolloPruebaGH-01\JCRevolloP1\Library\PackageCache\com.qualcomm.snapdragon.spaces@870e4622f1bc
+  source: 4
+  resolvedPath: C:\Users\MULTIMEDIA\Documents\Pruebas GIthub\JRevolloPruebaGH-01\JCRevolloP1\Packages\com.qualcomm.snapdragon.spaces-1.0.2\package
   assetPath: Packages/com.qualcomm.snapdragon.spaces
   name: com.qualcomm.snapdragon.spaces
   displayName: Snapdragon Spaces
