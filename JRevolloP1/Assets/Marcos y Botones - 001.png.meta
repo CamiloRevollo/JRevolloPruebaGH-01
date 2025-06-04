@@ -108,7 +108,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boton marco 2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 775
+        width: 232
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 232, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c7e12ff29655543b4d6bcf58b6bb49
+      internalID: -887824252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton marco 1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 768
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84108002fc5db74a942bbb197965799
+      internalID: 1005409519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton marco 3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 775
+        width: 231
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef4a0efe10724541ac3f75b68d3a50d
+      internalID: -1371565346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton marco 4
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 772
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 248, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db9b18cf4edc54baa0d929449b6cb6
+      internalID: -1596652291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marcos y Botones - 001_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 563
+        width: 194
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d251d3ad4dcde2246aed37d75b4908f4
+      internalID: 694409190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marcos y Botones - 001_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 560
+        width: 194
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7baf4156a3dbd4fb22ca143b0e0575
+      internalID: 1900092336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marcos y Botones - 001_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 557
+        width: 202
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 202, y: 0, z: 0, w: 122}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c122f1b13b09f9d47ac349a8dbb55e81
+      internalID: -1164613031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marcos y Botones - 001_7
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 557
+        width: 198
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 198, y: 0, z: 0, w: 123}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f794f4b6a1e613418f1a11f6ffccaf4
+      internalID: -246381164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +287,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Marcos y Botones - 001_4: 694409190
+      Marcos y Botones - 001_5: 1900092336
+      Marcos y Botones - 001_6: -1164613031
+      Marcos y Botones - 001_7: -246381164
+      boton marco 1: 1005409519
+      boton marco 2: -887824252
+      boton marco 3: -1371565346
+      boton marco 4: -1596652291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
