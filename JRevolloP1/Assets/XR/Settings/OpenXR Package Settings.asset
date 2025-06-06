@@ -77,22 +77,36 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 3458853997270610678}
-  - {fileID: -8816291561702092510}
+  - {fileID: -3096285294629925907}
+  - {fileID: 6278003523158192641}
+  - {fileID: -3952565846973540956}
   - {fileID: 7430819398117723961}
   - {fileID: -770081555433010605}
+  - {fileID: 3490533458241255672}
   - {fileID: 978788373448409027}
+  - {fileID: 8482996167830901508}
   - {fileID: 496013738377658954}
   - {fileID: -8068531325072309185}
+  - {fileID: -5161973094966510583}
+  - {fileID: -29707051654344538}
   - {fileID: 2165358496648226197}
   - {fileID: 6664678503392385291}
+  - {fileID: 3458853997270610678}
   - {fileID: 3495503405064394241}
   - {fileID: -1387839922378258618}
+  - {fileID: -8544796815044736936}
   - {fileID: -1926738243704521804}
   - {fileID: 2402168779800582430}
   - {fileID: 7382918170682096016}
   - {fileID: -551576463748428000}
+  - {fileID: 7853500615545099323}
+  - {fileID: 5801298997831753542}
+  - {fileID: 2244267878999829606}
   - {fileID: -3305804687320885253}
+  - {fileID: -7933632898641545075}
+  - {fileID: -2982359555946768858}
+  - {fileID: -8816291561702092510}
+  - {fileID: 1404975863676944547}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -114,11 +128,11 @@ MonoBehaviour:
   m_Name: SpacesMicrosoftMixedRealityMotionControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Microsoft Mixed Reality Motion Controller Profile
+  version: 1.0.2
+  featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
   openxrExtensionStrings: 
-  company: 
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-8068531325072309185
@@ -154,11 +168,12 @@ MonoBehaviour:
   m_Name: SpatialAnchorsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Spatial Anchors
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.spatialanchors
+  openxrExtensionStrings: XR_MSFT_spatial_anchor XR_MSFT_spatial_anchor_persistence
+    XR_QCOM_spatial_anchor_persistence_extent
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-7498695545084462683
@@ -353,11 +368,11 @@ MonoBehaviour:
   m_Name: HitTestingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Hit Testing
+  version: 1.0.0
+  featureIdInternal: com.qualcomm.snapdragon.spaces.raycasting
+  openxrExtensionStrings: XR_QCOM_ray_casting
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-5019531212954669059
@@ -435,11 +450,12 @@ MonoBehaviour:
   m_Name: CompositionLayersFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Composition Layers (Experimental)
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.compositionlayers
+  openxrExtensionStrings: XR_KHR_composition_layer_cylinder XR_KHR_composition_layer_equirect2
+    XR_FB_composition_layer_alpha_blend XR_KHR_android_surface_swapchain
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-3645240103753782398
@@ -497,13 +513,14 @@ MonoBehaviour:
   m_Name: BaseRuntimeFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Base Runtime
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.base
+  openxrExtensionStrings: XR_QCOM_component_versioning XR_FB_display_refresh_rate
+    XR_KHR_android_thread_settings XR_EXT_performance_settings
+  company: Qualcomm
   priority: 0
-  required: 0
+  required: 1
   LaunchAppOnViewer: 1
   PreventSleepMode: 1
   ShowSplashScreenOnHost: 0
@@ -526,11 +543,11 @@ MonoBehaviour:
   m_Name: SpatialMeshingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Spatial Meshing
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.sceneunderstanding
+  openxrExtensionStrings: XR_MSFT_scene_understanding
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-2911315970248901925
@@ -750,11 +767,11 @@ MonoBehaviour:
   m_Name: ImageTrackingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Image Tracking
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
+  openxrExtensionStrings: XR_QCOM_image_tracking XR_QCOM_tracking_optimization_settings
+  company: Qualcomm
   priority: 0
   required: 0
   ExtendedRangeMode: 0
@@ -929,13 +946,13 @@ MonoBehaviour:
   m_Name: OlderRuntimeCompatibilityFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Older Runtime Compatibility (Experimental)
+  version: 1.0.0
+  featureIdInternal: com.qualcomm.snapdragon.spaces.olderruntimecompatibility
   openxrExtensionStrings: 
-  company: 
-  priority: 0
-  required: 0
+  company: Qualcomm
+  priority: -2147483648
+  required: 1
 --- !u!114 &1464341605893301757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,11 +1028,11 @@ MonoBehaviour:
   m_Name: QrCodeTrackingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: QR Code Tracking
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.qrcodetracking
+  openxrExtensionStrings: XR_QCOMX_marker_tracking
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &2402168779800582430
@@ -1113,13 +1130,13 @@ MonoBehaviour:
   m_Name: FusionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Dual Render Fusion
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.fusion
+  openxrExtensionStrings: XR_UNITY_android_present
+  company: Qualcomm
   priority: 0
-  required: 0
+  required: 1
   ValidateOpenScene: 1
   IgnoreOpenXRVersion: 0
 --- !u!114 &3495503405064394241
@@ -1310,11 +1327,11 @@ MonoBehaviour:
   m_Name: PlaneDetectionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Plane Detection
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.planedetection
+  openxrExtensionStrings: XR_MSFT_scene_understanding
+  company: Qualcomm
   priority: 0
   required: 0
   ConvexHullEnabled: 1
@@ -1373,11 +1390,11 @@ MonoBehaviour:
   m_Name: CameraAccessFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Camera Access
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.cameraaccess
+  openxrExtensionStrings: XR_QCOMX_camera_frame_access XR_KHR_convert_timespec_time
+  company: Qualcomm
   priority: 0
   required: 0
   DirectMemoryAccessConversion: 0
@@ -1482,11 +1499,11 @@ MonoBehaviour:
   m_Name: PassthroughLayerFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Passthrough Layer (Experimental)
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.passthroughlayer
+  openxrExtensionStrings: XR_FB_passthrough XR_FB_composition_layer_alpha_blend
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &8146990766643925221
@@ -1572,11 +1589,12 @@ MonoBehaviour:
   m_Name: FoveatedRenderingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Foveated Rendering
+  version: 1.0.2
+  featureIdInternal: com.qualcomm.snapdragon.spaces.foveatedrendering
+  openxrExtensionStrings: XR_FB_swapchain_update_state XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_foveation_vulkan
+  company: Qualcomm
   priority: 0
   required: 0
   DefaultFoveationLevel: 0
@@ -1593,7 +1611,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 4859723553789344493}
   - {fileID: -808231996017727258}
   - {fileID: -7498695545084462683}
   - {fileID: -6764172920480903896}
@@ -1602,6 +1619,7 @@ MonoBehaviour:
   - {fileID: 231712650862221641}
   - {fileID: 437612238477857827}
   - {fileID: -4864677534046506963}
+  - {fileID: 4859723553789344493}
   - {fileID: 8401454613713317216}
   - {fileID: -1164425502685518044}
   - {fileID: 5805127253022338292}
